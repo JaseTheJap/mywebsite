@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>amma - About Us</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+</head>
+<body>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+  <nav id="navbar">
+    <img src="happyearth co. (1).png" alt="Logo">
+    <ul>
+        <li><a href="index.html"><img src="home.png" alt="Home"></a></li>
+        <li><a href="#"><img src="info.png" alt="Home"></a></li>
+        <li><a href="#"><img src="bell.png" alt="Home"></a></li>
+        <li><a href="#"><img src="email.png" alt="Home"></a></li>
+    </ul>
+  </nav>
+  
+  <div class="about-section">
+    <div class="content-container">
+      <h2>About Me</h2>
+      <p>
+        Welcome to the ultimate guitar universe, where we strive to inspire a love for music and foster a passion for learning. My name is Jason Hattingh, and I am thrilled to share my journey and expertise with aspiring musicians like you.
+      </p>
+      <p>
+        With over a decade of experience as a guitarist, I have dedicated myself to the art of music. It all began when I first picked up a guitar more than 10 years ago, and I instantly fell in love with the instrument. Since then, I have honed my skills through dedicated practice, exploration of various musical genres, and continuous learning.
+      </p>
+      <p>
+        I have pursued my passion for music academically, studying it full time to deepen my understanding of theory, composition, and performance. This comprehensive education has equipped me with the knowledge and techniques necessary to excel as a musician and share my expertise with others.
+      </p>
+      <p>
+        For the past five years, I have had the privilege of serving as a music teacher. Guiding students through their musical journeys has been an incredibly fulfilling experience. I believe in creating a nurturing and supportive environment where students can develop their musical abilities while exploring their own unique style and creativity. My approach focuses not only on technical proficiency but also on cultivating a deep appreciation for music as a form of self-expression and personal growth.
+      </p>
+      <p>
+        We strive to provide a well-rounded musical education to students of all ages and skill levels. Whether you are a beginner just starting your musical journey or an advanced player looking to refine your technique, our tailored lessons are designed to meet your individual needs and goals. We offer comprehensive instruction in guitar, encompassing various styles and genres, and we also provide opportunities for performance and collaboration.
+      </p>
+      <p>
+        Our mission is to empower our students to unleash their musical potential, nurture their creativity, and build a lifelong love for music. We believe that music has the power to inspire, uplift, and bring people together, and we are committed to fostering a supportive community where students can thrive.
+      </p>
+      <p>
+        I invite you to join us at AMGA and embark on an exciting musical adventure. Together, let's unlock your full potential and create beautiful music that resonates with your soul.
+      </p>
+      <p>
+        Sincerely,<br>
+        Jason Hattingh<br>
+        Founder, Atomic Mind Guitar Academy
+      </p>
+    </div>
+
+    <div class="image-section">
+        <div class="image-wrapper">
+          <img src="jo5.jpeg" alt="Image 1">
+        </div>
+        <div class="image-wrapper">
+            <img src="shred6.jpeg" alt="Image 1">
+        </div>
+        <div class="image-wrapper">
+          <img src="shred7.jpeg" alt="Image 1">
+      </div>
+  </div>
+
+ 
+
+  <script src="script.js"></script>
+  <script>
+    // JavaScript to hide the nav bar on scroll
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-60px";
+      }
+      prevScrollpos = currentScrollPos;
+    };
+  </script>
+</body>
+</html>
